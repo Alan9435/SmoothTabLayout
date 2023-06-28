@@ -50,7 +50,7 @@ dependencies {
 
 publishing {
     publications {
-        create("release", MavenPublication) {
+        maven(MavenPublication){
             groupId = "demo-simple-android-lib"
             artifactId = "demo-simple-android-lib"
             version = "0.0.3"
